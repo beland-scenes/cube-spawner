@@ -1,0 +1,24 @@
+{
+  "name": "beland-project",
+  "version": "1.0.0",
+  "description": "My new Beland project",
+  "scripts": {
+    "start": "bld start",
+    "build": "build-ecs",
+    "watch": "build-ecs --watch",
+    "deploy:now": "bld export && now export",
+    "ecs:install": "npm install --save-dev beland-ecs@latest",
+    "ecs:install-next": "npm install --save-dev beland-ecs@next",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix"
+  },
+  "devDependencies": {
+    "@beland/eslint-config": "^1.0.0",
+    "beland-ecs": "^0.0.3-dev"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0",
+    "yarn": "please use npm"
+  }
+}

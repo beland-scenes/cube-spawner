@@ -1,0 +1,6 @@
+{
+  "extends": "@beland/eslint-config/sdk",
+  "parserOptions": {
+    "project": ["tsconfig.json"]
+  }
+}
